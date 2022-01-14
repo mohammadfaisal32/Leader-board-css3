@@ -89,6 +89,7 @@ hr{
 .courses{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  border-radius: 7px;
 }
 .course .course-banner img{
   width: 224px;
@@ -100,9 +101,12 @@ hr{
   justify-content: space-between;
 }
 .course-duration{
-  background-color: moccasin;
-  border-radius: 8px;
+  background-color: rgba(238, 200, 134, 0.836);
+  border-radius: 6px;
+  margin-right: 50px;
+  color: red;
 }
+
 .fa-star{
   font-size: 12px;
 }
@@ -131,6 +135,8 @@ hr{
 }
    .courses{
      display: none;
+     
+
    }
 }
 
